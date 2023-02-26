@@ -35,14 +35,14 @@ const production = {
     port:587,
     secure: false,
     auth: {
-        user: process.env.CODEIAL_GMAIL_USERNAME,
-        pass: process.env.CODEIAL_GMAIL_PASSWORD
-    }
+      user: 'partikb640@gmail.com',
+      pass: 'rqifdakxcvfstmhr'
+  }
   },
-  google_client_id: process.env.CODEIAL_GOOGLE_CLIENT_ID,
-  google_client_secret: process.env.CODEIAL_GOOGLE_CLIENT_SECRET,
-  google_call_back_url: process.env.CODEIAL_GOOGLE_CALLBACK_URL,
-  jwt_secret:process.env.CODEIAL_JWT_SECRET,
+  google_client_id: "700996801820-1q0hs4reoagih0j064p13fv7ra30444v.apps.googleusercontent.com",
+  google_client_secret: "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",
+  google_call_back_url: "http://localhost:8000/users/auth/google/callback",
+  jwt_secret:"codeial",
 }
 
 
