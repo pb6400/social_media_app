@@ -1,6 +1,6 @@
 #home-container{
     display: flex;
-   
+   justify-content: space-between;
    
     #feed-posts{
             width:70%;
@@ -13,4 +13,15 @@
         border-left: 1px solid lightgrey;
         height:100%;
     }
+    ul{
+        li{list-style: none;
+            background-color: #B9D7EA;
+            display:inline-block;
+            .userName{
+                background-color: #769FCD;
+                display: block;
+            }
+        }
+    }
 }
+

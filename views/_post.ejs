@@ -5,6 +5,9 @@
             <a class="delete-post-button"  href="/posts/destroy/<%= post.id %>">X</a>
         </small>
         <% } %>
+        <small class="userName">
+            <%= post.user.name %>
+        </small>
         <%= post.content %>
         <br>
         <small>
