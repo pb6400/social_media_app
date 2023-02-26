@@ -26,9 +26,9 @@ const development = {
 const production = {
     name: 'production',
     
-    asset_path: process.env.CODEIAL_ASSET_PATH,
-    session_cookie_key: process.env.CODEIAL_SESSION_COOKIE_KEY,
-    db: process.env.CODEIAL_DB,
+    asset_path: "/assets",
+    session_cookie_key: "nVRW3QewxYD8dmAjR1M2BtitlKomvW0r",
+    db: "codeial_development",
     smtp:  {
     service:'gmail',
     host: 'smtp.gmail.com',

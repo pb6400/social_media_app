@@ -5,7 +5,6 @@ const app=express();
 const port=8000;
 const expressLayouts=require('express-ejs-layouts');
 const db = require('./config/mongoose');
-require('dotenv').config({path: __dirname + './.env'})
 //used for session cookie
 const session = require('express-session');
 const passport = require('passport');
@@ -45,7 +44,7 @@ app.set('views','./views');
 app.use(session({
     name: 'codeial',
     // todo change the secret  before deployment in production mode
-    secret: env.session_cookie_key,
+    secret: "nVRW3QewxYD8dmAjR1M2BtitlKomvW0r",
     saveUninitialized:false,
     resave:false,
     cookie:{
